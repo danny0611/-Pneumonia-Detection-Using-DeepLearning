@@ -1,0 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Ultra&display=swap');
+</style>
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

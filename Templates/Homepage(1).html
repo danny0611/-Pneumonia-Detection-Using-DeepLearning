@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PneumoCare AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="font-sans antialiased bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-teal-600 text-white font-ClimateCrisis font-bold shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4 py-6">
+            <a href="Homepage.html" class="text-2xl ">PneumoCare AI</a>
+            <div class="space-x-6">
+                <a href="http://127.0.0.1:5000/" class="hover:text-gray-200">Predict</a>
+                <a href="#about" class="hover:text-gray-200">About Us</a>
+                <a href="#contact" class="hover:text-gray-200">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-teal-50">
+        <div class="container mx-auto flex flex-col-reverse lg:flex-row max-h-screen items-center px-4 py-12">
+            <div class="lg:w-1/2">
+                <h1 class="text-7xl font-ClimateCrisis font-extrabold   text-teal-700 mb-4">PneumoCare <br> AI</h1>
+                <p class="text-lg font-semibold  text-gray-700 mb-6">
+                    "Give Your Lungs the VIP Care They Deserve! 🚀
+                    Detect pneumonia in seconds with our AI-powered solution—faster than an X-ray! 📸
+                    Simply upload, analyze, and receive results while you relax with your coffee. ☕💨
+                    Fast, accurate, and easy. Your health, reimagined!"
+                    <br>
+                    <br>
+                    "Who knew detecting pneumonia could be this simple? Forget waiting in long lines or dealing with
+                    complicated tests. With our AI, it’s like having a doctor in your pocket—minus the white coat! Just
+                    upload your file, and let us do the rest. It’s healthcare that’s quick, easy, and a little bit
+                    magic."
+                </p>
+                <a href="http://127.0.0.1:5000/"
+                    class="bg-teal-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-teal-700 transition">
+                    Start Diagnosis
+                </a>
+            </div><br>
+            <div class="lg:w-1/2">
+                <img src="/Frontend/images/1.png" alt="PneumoCare AI Hero" class="rounded-lg shadow-lg ml-60 max-2 max-h-96 max-w-96
+                ">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto flex flex-col lg:flex-row max-h-screen items-center px-4">
+            <div class="lg:w-1/2">
+                <img src="/Frontend/images/2.png" alt="About Us" class="rounded-lg mx-2 max-h-96 max-w-96">
+            </div>
+            <div class="text-center lg:text-left lg:w-1/2 mt-6 lg:mt-0">
+                <h2 class="text-6xl font-bold text-teal-700  mb-4">About Us</h2>
+                <p class="text-lg font-semibold text-gray-700">
+                    <br>
+                    At PneumoCare AI, we’re revolutionizing pneumonia detection by making it as simple as a click. Our
+                    cutting-edge AI technology works seamlessly alongside the expertise of healthcare professionals to
+                    provide accurate, timely diagnoses—saving lives, one detection at a time.
+                    <br>
+                    <br>
+                    We believe in the power of innovation and the importance of human connection, ensuring that each
+                    diagnosis is not only fast but
+                    also compassionate. With us, you’ll experience healthcare redefined—efficient, reliable, and
+                    surprisingly enjoyable to work with!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-12 bg-teal-50">
+        <div class="container mx-auto flex flex-col lg:flex-row-reverse max-h-screen items-center px-4">
+            <div class="lg:w-1/2">
+                <img src="/Frontend/images/3.png" alt="Features" class="rounded-lg ml-56 mx-2 max-h-96 min-w-96">
+            </div>
+            <div class="text-center lg:text-left lg:w-1/2 mt-6 lg:mt-0">
+                <h2 class="text-6xl font-bold text-teal-700 mb-8">Features</h2>
+                <ul class="text-lg text-gray-700 space-y-4">
+                    <li><strong>🩺 AI Diagnosis:</strong> Think of it as your super-smart medical sidekick.</li>
+                    <li><strong>🤖 Chatbot Assistance:</strong> Answers your questions and might even crack a joke.</li>
+                    <li><strong>📋 Detailed Reports:</strong> Because your health deserves the full story.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center px-4">
+            <div class="lg:w-1/2">
+                <img src="/Frontend/images/4.png" alt="Contact Us" class="rounded-lg  mx-2 max-h-96 min-w-96">
+            </div>
+            <div class="text-center lg:text-left lg:w-1/2 mt-6 lg:mt-0">
+                <h2 class="text-3xl font-bold text-teal-700 mb-4">Contact Us</h2>
+                <form class="bg-teal-50 shadow-md p-6 rounded-lg">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-teal-700">Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-teal-700">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-teal-700">Message</label>
+                        <textarea id="message" class="w-full px-4 py-2 border rounded-lg"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-teal-600 text-white py-3 rounded-lg hover:bg-teal-700 transition">Send
+                        Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-teal-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 PneumoCare AI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2024/12/03/18/20241203183604-1VUGXC33.js"></script>
+
+</body>
+</html>
