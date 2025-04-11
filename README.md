@@ -1,4 +1,3 @@
-# -Pneumonia-Detection-Using-DeepLearning
 # 🫁 Pneumonia Detection Using Deep Learning
 
 ## 📌 Overview
